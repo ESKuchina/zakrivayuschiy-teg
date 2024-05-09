@@ -182,6 +182,10 @@
   gap: 27px;
 }
 
+.description:first-child {
+  margin-bottom: 27px;
+}
+
 .description:last-child {
   margin-bottom: 25px;
 }
