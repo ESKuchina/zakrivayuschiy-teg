@@ -21,7 +21,7 @@
   font-size: var(--font-size, 18px);
   line-height: normal;
   font-variation-settings: 'wght' var(--standart-wgth, 400);
-  background-color: var(--bg-color, #ffffff);
+  background-color: var(--bg-color, #F5F5F5);
   color: var(--accent-color, #000000);
   background-image: var(--bg-image);
   background-repeat: repeat;
@@ -31,7 +31,7 @@
 
 .header {
   margin: 0 auto;
-  background-color: var(--bg-color, #ffffff);
+  background-color: var(--bg-color, #F5F5F5);
   inline-size: min(100%, 700px);
   display: flex;
   flex-direction: column;
@@ -80,7 +80,7 @@
 
 
 .theme-menu__button {
-  background-color: var(--bg-color, #fff);
+  background-color: var(--bg-color, #F5F5F5);
   cursor: pointer;
   position: relative;
   justify-self: start;
@@ -143,7 +143,7 @@
 
   margin-block-start: 100px;
 
-  background-color: var(--bg-color, #ffffff);
+  background-color: var(--bg-color, #F5F5F5);
   inline-size: min(100%, 700px);
 
 }
@@ -199,12 +199,12 @@
 .button {
   border: none;
   outline: none;
-  background-color: var(--bg-color, #fff);
+  background-color: var(--bg-color, #F5F5F5);
   cursor: pointer;
 }
 
 .card__icon-button {
-  border: 2px solid var(--bg-color, #fff);
+  border: 2px solid var(--bg-color, #F5F5F5);
   padding: 0;
   transition: border-color var(--standart-animation, .3s ease);
   block-size: 38px;
@@ -318,7 +318,7 @@
 }
 
 .card__like-button:hover .card__button-color {
-  color:var(--bg-color, #fff);
+  color:var(--bg-color, #F5F5F5);
 }
 
 .card__like-button:hover::after,
@@ -327,7 +327,7 @@
 }
 
 .card__save-button:hover .card__button-color {
-  color:var(--bg-color, #fff);
+  color:var(--bg-color, #F5F5F5);
 }
 
 .card__like-button:focus,
@@ -359,7 +359,7 @@
 }
 
 .card__button-color:hover {
-  color: var(--bg-color, #fff);
+  color: var(--bg-color, #F5F5F5);
 }
 
 @media (width <=375px) {

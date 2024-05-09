@@ -11,7 +11,7 @@
     --standart-wgth: 400;
     --bold-wgth: 700;
     --font-header-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-    --bg-color: #ffffff;
+    --bg-color: #f5f5f5;
     --accent-color: #000000;
     --heart-contour-color: #000;
     --heart-color: red;
