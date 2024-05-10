@@ -134,22 +134,18 @@
   opacity: .6;
 }
 
-
-
 .content {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-
   margin-block-start: 100px;
-
-  background-color: var(--bg-color, #F5F5F5);
   inline-size: min(100%, 700px);
 
 }
 
 .card {
   border: 2px solid currentColor;
+  background-color: var(--bg-color, #F5F5F5);
 }
 
 .card__title {
@@ -318,7 +314,7 @@
 }
 
 .card__like-button:hover .card__button-color {
-  color:var(--bg-color, #F5F5F5);
+  color: var(--bg-color, #F5F5F5);
 }
 
 .card__like-button:hover::after,
@@ -327,7 +323,7 @@
 }
 
 .card__save-button:hover .card__button-color {
-  color:var(--bg-color, #F5F5F5);
+  color: var(--bg-color, #F5F5F5);
 }
 
 .card__like-button:focus,
@@ -339,7 +335,7 @@
   position: relative;
   z-index: 1;
   padding: 0;
-  font-family: var(--accent-font, sans-serif);
+  font-family: var(--accent-font, fantasy);
   font-weight: 400;
   font-size: 14px;
   font-style: normal;

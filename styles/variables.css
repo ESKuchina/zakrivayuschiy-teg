@@ -18,9 +18,3 @@
     --bg-image: url('../svg/pattern-light.svg');
     --standart-animation: .3s ease;
 }
-
-@media (width < 375px) {
-    :root {
-        --font-header-size: 2.8rem;
-    }
-}
