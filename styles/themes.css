@@ -28,7 +28,7 @@
     --bg-color-main: #d3d3d3;
     --bg-color-start: #e7e7e7;
     --bg-color-stop: #1a1a1a;
-    --t-bg-color: #f5f5f5;
+    --t-bg-color: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
