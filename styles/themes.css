@@ -1,0 +1,48 @@
+/* В этом файле вы опишете значения переменных в разных цветовых схемах.
+Придерживайтесь такого именования классов:
+✦ theme-dark — класс тёмной темы
+✦ theme-light — класс светлой темы
+✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
+*/
+.page.theme-dark {
+    --bg-color: #000000;
+    --accent-color: #00CC14;
+    --new-accent-color: #00CC14;
+    --standart-wgth: var(--normal-dark-weight, 465);
+    --bold-wgth: var(--bold-dark-weight, 785);
+    --heart-contour-color: #00CC14;
+    --heart-liked-color: red;
+    --bg-color-main: #000;
+    --bg-color-start: #007f0c;
+    --bg-color-stop: #004306;
+    --t-bg-color: #000;
+}
+
+.page.theme-light {
+    --bg-color: #ffffff;
+    --accent-color: #000000;
+    --new-accent-color: #f5f5f5;
+    --standart-wgth: var(--normal-light-weight, 400);
+    --bold-wgth: var(--bold-light-weight, 700);
+    --heart-contour-color: #000;
+    --bg-color-main: #d3d3d3;
+    --bg-color-start: #e7e7e7;
+    --bg-color-stop: #1a1a1a;
+    --t-bg-color: #f5f5f5;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #000000;
+        --accent-color: #00CC14;
+        --new-accent-color: #00CC14;
+        --standart-wgth: var(--normal-dark-weight, 465);
+        --bold-wgth: var(--bold-dark-weight, 785);
+        --heart-contour-color: #00CC14;
+        --heart-liked-color: red;
+        --bg-color-main: #000;
+        --bg-color-start: #007f0c;
+        --bg-color-stop: #004306;
+        --t-bg-color: #000;
+    }
+}
