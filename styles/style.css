@@ -222,7 +222,7 @@ p:last-child {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  padding-block: 26px;
+  /*padding-block: 26px;*/
 }
 
 .button {
